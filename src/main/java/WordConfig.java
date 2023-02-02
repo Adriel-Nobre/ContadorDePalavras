@@ -44,7 +44,7 @@ public class WordConfig {
                 wordstr = wordstr.toUpperCase();
             }
 
-            // get the group of words matched by the regex and assign each one to the ArrayList words.
+            //palavras correspondidas pelo regex e atribui cada uma delas no arrayList.
             this.words.add(new Word(wordstr));
         }
     }
